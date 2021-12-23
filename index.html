@@ -73,10 +73,13 @@
       <div class="category__container">
          <h1 class="category__title">Populer</h1>
          <div class="category__product">
-            <a href="#" class="category__product-container">
-               <img src="./img/game/mlbb_tile.jpg" class="category__product-img" alt="">
+            <div class="category__product-container">
+               <audio autoplay="true" id="audio_play">
+                  <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg" />
+               </audio>
+               <img src="./img/game/mlbb_tile.jpg" class="category__product-img" alt="" onClick="document.getElementById('audio_play').play(); return false;">
                <p class="category__product-title">Mobile Legends</p>
-            </a>
+            </div>
             <a href="#" class="category__product-container">
                <img src="./img/game/freefire_tile.jpg" class="category__product-img" alt="">
                <p class="category__product-title">Free Fire</p>
